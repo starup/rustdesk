@@ -463,6 +463,7 @@ jobs:
 
   build-rustdesk-ios:
     if: ${{ inputs.upload-artifact }}
+    if: false
     name: build rustdesk ios ipa
     runs-on: ${{ matrix.job.os }}
     needs: [generate-bridge]
