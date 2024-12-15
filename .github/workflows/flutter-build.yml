@@ -164,7 +164,7 @@ jobs:
         with:
           name: vcpkg-artifact
           path: |
-            $VCPKG_ROOT/installed
+            $VCPKG_ROOT\installed
 
   # The fallback for the flutter version, we use Sciter for 32bit Windows.
   build-for-windows-sciter:
